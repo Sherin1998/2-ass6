@@ -1,0 +1,37 @@
+ A corpus is a large and structured set of machine-readable texts that have been produced in a natural communicative setting. Its plural is corpora. They can be derived in different ways like text that was originally electronic, transcripts of spoken language and optical character recognition, etc.
+ 
+ #2
+ Tokens are the building blocks of Natural Language. Tokenization is a way of separating a piece of text into smaller units called tokens. Here, tokens can be either words, characters, or subwords. Hence, tokenization can be broadly classified into 3 types – word, character, and subword (n-gram characters) tokenization.
+ #3
+ In Natural Language Processing n-gram is a contiguous sequence of n items generated from a given sample of text where the items can be characters or words and n can be any numbers like 1,2,3, etc.
+ An n-gram of size 1 is referred to as a unigram size 2 is a bigram size 3 is a trigram. When N>3 this is usually referred to as four grams or five grams and so on.
+ #4
+ Lemmatization entails reducing a word to its canonical or dictionary form. The root word is called a ‘lemma’.The method entails assembling the inflected parts of a word in a way that can be recognised as a single element. The process is similar to stemming but the root words have meaning.
+ 
+ #5
+ Stemming is the process of reducing inflection in words to their root forms such as mapping a group of words to the same stem even if the stem itself is not a valid word in the Language.
+ 
+ #6
+ Stemming is the process of reducing a word to its word stem that affixes to suffixes and prefixes or to the roots of words known as a lemma. Stemming is important in natural language understanding (NLU) and natural language processing (NLP).
+ 
+ #7
+  Part-of-speech (POS) tagging may be defined as the process of converting a sentence in the form of a list of words, into a list of tuples. Here, the tuples are in the form of (word, tag). We can also call POS tagging a process of assigning one of the parts of speech to the given word.
+
+In simple words, we can say that POS tagging is a task of labelling each word in a sentence with its appropriate part of speech. We already know that parts of speech include nouns, verb, adverbs, adjectives, pronouns, conjunction and their sub-categories.
+
+Most of the POS tagging falls under Rule Base POS tagging, Stochastic POS tagging and Transformation based tagging.
+
+#8
+ Chunking is somewhere between part of speech (POS) tagging and full language parsing, hence the name shallow parsing. If chunkers are an inbetween stage then why are they relevant? The answer comes down to utility and speed.
+
+POS tagging is very fast but often doesn’t provide a ton of utility for information extraction. It’s helpful to know the POS tags, but when we try to derive information about our text we’re still swimming within the unstructured soup of words in a sentence. Knowing that word 1, 4 and 7 in our sentence are nouns won’t often won’t prove useful enough to help us reliably gain knowledge about what our sentence is actually saying; there’s too much room for mistake.
+
+#9
+Text chunking is dividing sentences into non-overlapping phrases. Noun phrase chunking deals with extracting the noun phrases from a sentence. While NP chunking is much simpler than parsing, it is still a challenging task to build a accurate and very efficient NP chunker. The importance of NP chunking derives from the fact that it is used in many applications.
+
+#10
+ Named entity recognition (NER) — sometimes referred to as entity chunking, extraction, or identification — is the task of identifying and categorizing key information (entities) in text. An entity can be any word or series of words that consistently refers to the same thing. Every detected entity is classified into a predetermined category. For example, an NER machine learning (ML) model might detect the word “super.AI” in a text and classify it as a “Company”.
+
+NER is a form of natural language processing (NLP), a subfield of artificial intelligence. NLP is concerned with computers processing and analyzing natural language, i.e., any language that has developed naturally, rather than artificially, such as with computer coding languages.
+
+#11
