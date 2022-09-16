@@ -1,0 +1,76 @@
+A summation junction for the input signals is weighted by the respective synaptic weight.Each of the nodes sums the activation values it receives; it then modifies the value based on its transfer function. The activation flows through the network, through hidden layers, until it reaches the output nodes
+A threshold activation function (or simply the activation function, also known as squashing function) results in an output signal only when an input signal exceeding a specific threshold value comes as an input. It is similar in behaviour to the biological neuron which transmits the signal only when the total input signal meets the firing threshold.
+
+#2
+Threshold/step Function: It is a commonly used activation function. As depicted in the diagram, it gives 1 as output of the input is either 0 or positive. If the input is negative, it gives 0 as output.
+The threshold function is almost like the step function, with the only difference being a fact that \theta    is used as a threshold value 
+
+#3
+The McCulloch-Pitts neural model has only two types of inputs — Excitatory and Inhibitory. The excitatory inputs have weights of positive magnitude and the inhibitory weights have weights of negative magnitude. The inputs of the McCulloch-Pitts neuron could be either 0 or 1. It has a threshold function as an activation function. So, the output signal yout is 1 if the input ysum is greater than or equal to a given threshold value, else 0
+Simple McCulloch-Pitts neurons can be used to design logical operations. For that purpose, the connection weights need to be correctly decided along with the threshold function (rather than the threshold value of the activation function).
+
+#4
+(ADALINE) is an early single-layer neuron  .The output value can be +1 or -1. A bias input x0 (where x0 =1) having a weight w0 is added. The activation function is such that if weighted sum is positive or 0, the output is 1, else it is -1.
+
+#5
+Single-Layer Percpetrons cannot classify non-linearly separable data points. Complex problems, that involve a lot of parameters cannot be solved by Single-Layer Perceptron
+A "single-layer" perceptron can't implement XOR. The reason is because the classes in XOR are not linearly separable.Real world data has multiple dimensions and do not have constant varience.So preceptron fails
+
+
+#6
+1.  A Distinguish between linearly separable and linearly inseparable problems withexample.   Why   a   single   layer of   perceptron   cannot   be   used   to   solve   linearlyinseparable problems? Answer:There is a whole class of problems which are termed as linearly separable. This name is given to them, because if we were to represent them in the input space, we could classify them using a straight line. The simplest examples are the logical AND or OR.If you can draw a line or hyper plane that can separate those points into two classes, then the data is separable. If not, then it may be separated by a hyper plane in higher dimensions.Still if any of the hyper planes could not separate them, then the data is termed as non linearly separable data.he positive and negative points cannot be separated by a linear line, or effectively, there does not exist a (linear) line that can separate the positive and negative points.
+he positive and negative points cannot be separated by a linear line, or effectively, there does not exist a (linear) line that can separate the positive and negative points.the hidden layer manages to transform the input features into processed features that can then be correctly classified in the output layer.
+
+#8
+ The concept is of feedforward ANN having only one weighted layer. In other words, we can say the input layer is fully connected to the output layer.In this type of network, we have only two layers input layer and the output layer but the input layer does not count because no computation is performed in this layer. The output layer is formed when different weights are applied to input nodes and the cumulative effect per node is taken. After this, the neurons collectively give the output layer to compute the output signals.
+ 
+ #9
+ A Competitive learning is an artificial neural network learning process where different neurons or processing elements compete on who is allowed to learn to represent the current input. In its purest form competitive learning is in the so-called winner-take-all networks where only the neuron that best represents the input is allowed to learn.
+ 
+ #10
+ Backpropagation is an algorithm that back propagates the errors from output nodes to the input nodes. Therefore, it is simply referred to as backward propagation of errors.
+ Backpropagation is a widely used algorithm for training feedforward neural networks. It computes the gradient of the loss function with respect to the network weights and is very efficient, rather than naively directly computing the gradient with respect to each individual weight. This efficiency makes it possible to use gradient methods to train multi-layer networks and update weights to minimize loss; variants such as gradient descent or stochastic gradient descent are often used.
+ 
+ Step 1: Inputs X, arrive through the preconnected path.
+
+Step 2: The input is modeled using true weights W. Weights are usually chosen randomly.
+
+Step 3: Calculate the output of each neuron from the input layer to the hidden layer to the output layer.
+
+Step 4: Calculate the error in the outputs
+
+Backpropagation Error= Actual Output – Desired Output
+Step 5: From the output layer, go back to the hidden layer to adjust the weights to reduce the error.
+
+Step 6: Repeat the process until the desired output is achieved.
+
+#11
+The advantages of the neural network are as follows −
+
+A neural network can implement tasks that a linear program cannot.
+
+When an item of the neural network declines, it can continue without some issues by its parallel features.
+
+A neural network determines and does not require to be reprogrammed.
+
+It can be executed in any application.
+
+
+
+#12
+
+Intense computation Required for training
+Large data is required
+Black Box nature
+
+#13
+
+a. Biological neurons, consisting of a cell body, axons, dendrites and synapses, are able to process and transmit neural activation.Neurons, also known as nerve cells, send and receive signals from your brain. While neurons have a lot in common with other types of cells, they're structurally and functionally unique. Specialized projections called axons allow neurons to transmit electrical and chemical signals to other cells.
+
+b. ReLU formula is :  f(x) = max(0,x).
+If the function receives any negative input, it returns 0; however, if the function receives any positive value x, it returns that value. As a result, the output has a range of 0 to infinite. is a non-linear function and it is required so as to pick up & learn complex relationships from the training data.
+
+d. Gradient descent is an optimization algorithm used to minimize some function by iteratively moving in the direction of steepest descent as defined by the negative of the gradient.
+t's based on a convex function and tweaks its parameters iteratively to minimize a given function to its local minimum.A gradient simply measures the change in all weights with regard to the change in error.
+a gradient is a derivative of a function that has more than one input variable. Known as the slope of a function in mathematical terms, the gradient simply measures the change in all weights with regard to the change in error.
+
