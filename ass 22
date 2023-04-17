@@ -1,0 +1,17 @@
+#2   In hard voting, we combine the outputs by returning the mode, i.e., the most frequently occurring label among the base classifiers’ outputs.In soft voting, the base classifiers output probabilities or numerical scores.
+      A soft-voting ensemble calculates the average score (or probability) and compares it to a threshold value.
+ 
+#3    Is it possible to speed up training of a bagging ensemble by distributing it accross multiple servers? It is quite possible to speed up training of a bagging ensemble by distributing it across multiples servers, since each predictor in the ensemble is independant of the others.
+      Bagging is a technique for improving the accuracy of predictions made by machine learning models. Bagging works by constructing a number of different models, each of which is based on a randomly-selected subset of the training data.
+      
+#4    OOB_Score helps in the least variance and hence it makes a much better predictive model than a model using other validation techniques. Less Computation: It requires less computation as it allows one to test the data as it is being trained.
+      Out-of-bag (OOB) error, also called out-of-bag estimate, is a method of measuring the prediction error of random forests, boosted decision trees, and other machine learning models utilizing bootstrap aggregating (bagging).
+      
+      
+#5   Random Forest chooses the optimum split while Extra Trees chooses it randomly. However, once the split points are selected, the two algorithms choose the best one between all the subset of features. 
+     Random Forest and Extremely Randomized Trees differ in the sense that the splits of the trees in the Random Forest are deterministic whereas they are random in the case of an Extremely Randomized Trees (to be more accurate, the next split is the best split among random uniform splits in the selected variables for the current treeExtra Trees is much faster. This is because instead of looking for the optimal split at each node it does it randomly.
+  
+  
+#6    Increase number of base estimators.Increase learning rate,Change the base learner
+
+#7    Reduce the learning rate if the model overfits the training set
