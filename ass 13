@@ -1,0 +1,13 @@
+Prior :The number of desired outcomes is 3 (rolling a 2, 4, or 6), and there are 6 outcomes in total. The a priori probability for this example is calculated as follows: A priori probability = 3 / 6 = 50%. Therefore, the a priori probability of rolling a 2, 4, or 6 is 50%
+Posterior : Posterior probability is a revised probability that takes into account new available information. For example, let there be two urns, urn A having 5 black balls and 10 red balls and urn B having 10 black balls and 5 red balls. Now if an urn is selected at random, the probability that urn A is chosen is 0.5.
+Likelihood : If we flip the coin one time, the probability that it will land on heads is 0.5. Now suppose we flip the coin 100 times and it only lands on heads 17 times. We would say that the likelihood that the coin is fair is quite low. If the coin was actually fair, we would expect it to land on heads much more often.
+
+#2    Bayes theorem helps to determine the probability of an event with random knowledge. It is used to calculate the probability of occurring one event while other one already occurred. It is a best method to relate the condition probability and marginal probability.
+
+#3     Some best examples of the Naive Bayes Algorithm are sentimental analysis, classifying new articles, and spam filtration. Classification algorithms are used for categorizing new observations into predefined classes for the uninitiated data.
+
+#4    Bayesian belief network is a useful way to represent probabilistic models and visualize them. Before we get into Bayesian networks, let us understand probabilistic models.
+
+Probabilistic models determine the relationship between variables, and then you can calculate the various probabilities of those two values. Bayesian Network is also called a Probabilistic Graphical Model (PGM).Bayesian Networks can be useful in many streams. Application of Bayesian belief network happens in the stream of an optimized search engine, diagnosis of different diseases, filtering spam emails, gene regulatory networks, and a lot more.
+
+#6        
