@@ -1,0 +1,38 @@
+#1     The independent variable is the cause. Its value is independent of other variables in your study. The dependent variable is the effect. Its value depends on changes in the independent variable.
+         The explanatory variable (or the independent variable) always belongs on the x-axis. The response variable (or the dependent variable) always belongs on the y-axis. Most linear equations are functions. In other words, for every value of x, there is only one corresponding value of y. When you assign a value to the independent variable, x, you can compute the value of the dependent variable, y
+         
+#2     Simple Linear Regression is a type of Regression algorithms that models the relationship between a dependent variable and a single independent variable. The relationship shown by a Simple Linear Regression model is linear or a sloped straight line, hence it is called Simple Linear Regression.
+       salary (dependent variable) and experience (Independent variable).These show positive corelation
+       
+       
+#3     The slope is an estimate of how much the dependent variable changes for a unit change in the independent variable.Y=MX+c is our line which gives us predictions based upon features what we choose .Here 'M' is our slope of the line and c is the intercept of the line which in technical terms we call weights and bias.
+        So basically the slope of the regression line(i.e) Y=MX+c tells us how exact is your prediction at what slope value and intercept your prediction will be the best fit for your model.
+        For simple linear regression, the slope of the regression line is estimated the mean (average) change in the value of the response variable, Y
+            per unit change of the predictor variable, X
+.
+        
+#4      if the slope is positive, y increases as x increases, and the function runs "uphill" (going left to right). If the slope is negative, y decreases as x increases and the function runs downhill. If the slope is zero, y does not change, thus is constant—a horizontal line.
+         
+         
+#5      If the slope is negative, y decreases as x increases and the function runs downhill. If the slope is zero, y does not change, thus is constant—a horizontal line.
+
+#6      Multiple linear regression refers to a statistical technique that uses two or more independent variables to predict the outcome of a dependent variable. 
+        Simple linear regression is a function that allows an analyst or statistician to make predictions about one variable based on the information that is known about another variable. Linear regression can only be used when one has two continuous variables—an independent variable and a dependent variable. The independent variable is the parameter that is used to calculate the dependent variable or outcome. A multiple regression model extends to several explanatory variables.
+        
+#7     Multicollinearity occurs when two or more independent variables have a high correlation with one another in a regression model, which makes it difficult to determine the individual effect of each independent variable on the dependent variable.
+       Multicollinearity could exist because of the problems in the dataset at the time of creation. These problems could be because of poorly designed experiments, highly observational data, or the inability to manipulate the data.
+       Multicollinearity could also occur when new variables are created which are dependent on other variables.
+       
+       
+       
+#8    Ridge regression is a model tuning method that is used to analyse any data that suffers from multicollinearity. This method performs L2 regularization. When the issue of multicollinearity occurs, least-squares are unbiased, and variances are large, this results in predicted values being far away from the actual values.
+      In ridge regression, the first step is to standardize the variables (both dependent and independent.The assumptions of ridge regression are the same as that of linear regression: linearity, constant variance, and independence. However, as ridge regression does not provide confidence limits, the distribution of errors to be normal need not be assumed.
+      Ridge regression reduces overfitting 
+      
+#9   Lasso regression is like linear regression, but it uses a technique "shrinkage" where the coefficients of determination are shrunk towards zero. Linear regression gives you regression coefficients as observed in the dataset. The lasso regression allows you to shrink or regularize these coefficients to avoid overfitting and make them work better on different datasets. 
+      Lasso regression penalizes less important features of your dataset and makes their respective coefficients zero, thereby eliminating them. Thus it provides you with the benefit of feature selection and simple model creation.
+      LASSO offers models with high prediction accuracy. The accuracy increases since the method includes shrinkage of coefficients, which reduces variance and minimizes bias. It performs best when the number of observations is low and the number of features is high. It heavily relies on parameter λ, which is the controlling factor in shrinkage. 
+      
+      
+ #16  Logistic regression is a data analysis technique that uses mathematics to find the relationships between two data factors. It then uses this relationship to predict the value of one of those factors based on the other. The prediction usually has a finite number of outcomes, like yes or no.
+       
