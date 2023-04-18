@@ -1,0 +1,10 @@
+#1     Ordinary Least Squares regression (OLS) is a common technique for estimating coefficients of linear regression equations which describe the relationship between one or more independent quantitative variables and a dependent variable (simple or multiple linear regression)
+        The OLS method aims to minimize the sum of square differences between the observed and predicted values.That way, the vector β of the coefficients can be estimated by the following formula
+         1) Individuals (observations) are independent. It is in general true in daily situations (the amount of rainfall does not depend on the previous day, the income does not depend on the previous month, the height of a person does not depend on the person measured just before…).
+         2) Variance is homogeneous. Levene's test is proposed by XLSTAT to test the equality of the error variances. 3) Residuals follow a normal distribution. XLSTAT offers several methods to test normality of residulals. 
+         
+#2      Homoscedasticity and independence of the error terms are key hypotheses in linear regression where it is assumed that the variances of the error terms are independent and identically distributed and normally distributed.
+        The ordinary least squares (OLS) algorithm is a method for estimating the parameters of a linear regression model. The OLS algorithm aims to find the values of the linear regression model’s parameters (i.e., the coefficients) that minimize the sum of the squared residuals. The residuals are the differences between the observed values of the dependent variable and the predicted values of the dependent variable given the independent variables.
+        
+#3      The ordinary least squares (OLS) algorithm is a method for estimating the parameters of a linear regression model. The OLS algorithm aims to find the values of the linear regression model’s parameters (i.e., the coefficients) that minimize the sum of the squared residuals. The residuals are the differences between the observed values of the dependent variable and the predicted values of the dependent variable given the independent variables.
+        
