@@ -1,0 +1,20 @@
+SVM is a supervised algorithm for classification and regression.The goal of the SVM algorithm is to create the best line or decision boundary that can segregate n-dimensional space into classes so that we can easily put the new data point in the correct category in the future. This best decision boundary is called a hyperplane.
+SVM chooses the extreme points/vectors that help in creating the hyperplane. These extreme cases are called as support vectors, and hence algorithm is termed as Support Vector Machine. Consider the below diagram in which there are two different categories that are classified using a decision boundary or hyperplane:There can be multiple lines/decision boundaries to segregate the classes in n-dimensional space, but we need to find out the best decision boundary that helps to classify the data points. This best boundary is known as the hyperplane of SVM.
+The dimensions of the hyperplane depend on the features present in the dataset, which means if there are 2 features (as shown in image), then hyperplane will be a straight line. And if there are 3 features, then hyperplane will be a 2-dimension plane.
+
+
+
+#2    Support vectors are data points that are closer to the hyperplane and influence the position and orientation of the hy
+Support Vectors: These are the points that are closest to the hyperplane. A separating line will be defined with the help of these data points. Margin: it is the distance between the hyperplane and the observations closest to the hyperplane (support vectors).
+perplane. Using these support vectors, we maximize the margin of the classifier. Deleting the support vectors will change the position of the hyperplane.
+Support Vectors: These are the points that are closest to the hyperplane. A separating line will be defined with the help of these data points. Margin: it is the distance between the hyperplane and the observations closest to the hyperplane (support vectors).
+
+
+#3      Training an SVM classifier includes deciding on a decision boundary between classes. This boundary is known to have the maximum distance from the nearest point on each data class.
+         Feature scaling is mapping the feature values of a dataset into the same range. Feature scaling is crucial for some machine learning algorithms, which consider distances between observations because the distance between two observations differs for non-scaled and scaled cases.
+         the decision boundary maximizes the distance to the nearest data points from different classes. Hence, the distance between data points affects the decision boundary SVM chooses. In other words, training an SVM over the scaled and non-scaled data leads to the generation of different models.
+         
+         
+#4      An SVM classifier can output the distance between the test instance and the decision boundary, and you can use this as a confidence score.An SVM classifier can give the distance between the test instance and the decision boundary as output, so we can use that as a confidence score, but we cannot use this score to directly converted it into class probabilities
+
+#5     
