@@ -1,0 +1,35 @@
+#1. The OLS method is used to estimate β0 and β1. The OLS method seeks to minimize the sum of the squared residuals. This means from the given data we calculate the distance from each data point to the regression line, square it, and the sum of all of the squared errors together.
+Ordinary least squares (OLS) is a linear regression technique used to find the best-fitting line for a set of data points by minimizing the residuals (the differences between the observed and predicted values). It does so by estimating the coefficients of a linear regression model by minimizing the sum of the squared differences between the observed values of the dependent variable and the predicted values from the model
+
+#2 The standard error of the regression (S), also known as the standard error of the estimate, represents the average distance that the observed values fall from the regression line. Conveniently, it tells you how wrong the regression model is on average using the units of the response variable. Smaller values are better because it indicates that the observations are closer to the fitted line.Unlike R-squared, you can use the standard error of the regression to assess the precision of the predictions. Approximately 95% of the observations should fall within plus/minus 2*standard error of the regression from the regression line, which is also a quick approximation of a 95% prediction interval. If want to use a regression model to make predictions, assessing the standard error of the regression might be more important than assessing R-squared.
+
+#3 Predicting rent based on square feet,number of rooms,location,number of residents etc
+
+#5  1. Multicolinearity: Collinearity refers to a situation in which two or more predictor variables are correlated to one another.In linear regression, we assume that all the predictors are independent. But often the case is the opposite. The predictors are correlated with each other. Hence, it is essential to look at this problem and find a feasible solution
+
+     2. Can only used in situations where data is linearly related
+    
+#6  Regularisation, Encoding of features, Feature scaling,Reducing complexity of data
+    
+#7   Polynomial regression, the relationship between the independent variable x and the dependent variable y is described as an nth degree polynomial in x. Polynomial regression, abbreviated E(y |x), describes the fitting of a nonlinear relationship between the value of x and the conditional mean of y. It usually corresponded to the least-squares method. According to the Gauss Markov Theorem, the least square approach minimizes the variance of the coefficients. This is a type of Linear Regression in which the dependent and independent variables have a curvilinear relationship and the polynomial equation is fitted to the data; we’ll go over that in more detail later in the article. Machine learning is also referred to as a subset of Multiple Linear Regression. Because we convert the Multiple Linear Regression equation into a Polynomial Regression equation by including more polynomial elements.
+      One important distinction between Linear and Polynomial Regression is that Polynomial Regression does not require a linear relationship between the independent and dependent variables in the data set. When the Linear Regression Model fails to capture the points in the data and the Linear Regression fails to adequately represent the optimum conclusion, Polynomial Regression is used.
+      
+#8    It is a predictive algorithm using independent variables to predict the dependent variable, just like Linear Regression, but with a difference that the dependent variable should be categorical variable.
+       Independent variables can be numeric or categorical variables, but the dependent variable will always be categorical.Logistic regression is a statistical model that uses Logistic function to model the conditional probability.
+       Logistic regression uses logit function, also referred to as log-odds; it is the logarithm of odds. The odds ratio is the ratio of odds of an event A in the presence of the event B and the odds of event A in the absence of event B.
+       Logistic regression predicts the output of a categorical dependent variable. Therefore the outcome must be a categorical or discrete value. It can be either Yes or No, 0 or 1, true or False, etc. but instead of giving the exact value as 0 and 1, it gives the probabilistic values which lie between 0 and 1.
+       
+       
+       
+ #9    1.  No muticolinearity
+       2.   Data points needtobe distinct and seperable
+       3.   No outliers should be present
+       4.   Sufficiant sample size
+       5.  Homoscedasticity between the residuals.
+       
+       
+  #10   Maximum likelihood estimation is a method that determines values for the parameters of a model. The parameter values are found such that they maximise the likelihood that the process described by the model produced the data that were actually observed.
+         A parameter is a numerical characteristic of a distribution. Normal distributions, as we know, have mean (µ) & variance (σ2) as parameters. 
+          Binomial distributions have the number of trials (n) & probability of success (p) as parameters. Gamma distributions have shape (k) and scale (θ) as parameters. Exponential distributions have the inverse mean (λ) as the parameter. 
+          These parameters or numerical characteristics are vital for understanding the size, shape, spread, and other properties of a distribution. Since the data that we have is mostly randomly generated, we often don’t know the true values of the parameters characterizing our distribution.
+          
